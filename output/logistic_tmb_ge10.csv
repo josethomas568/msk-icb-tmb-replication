@@ -1,0 +1,20 @@
+,OR,lo,hi,p
+Intercept,0.0219,0.0038,0.1275,0.0
+C(cancer_type_ref)[T.NSCLC],33.1711,8.0379,136.8928,0.0
+C(cancer_type_ref)[T.Melanoma],56.0463,13.5733,231.4236,0.0
+C(cancer_type_ref)[T.Bladder],39.9576,9.5618,166.9781,0.0
+C(cancer_type_ref)[T.Head & neck],14.8247,3.4165,64.3269,0.0003
+C(cancer_type_ref)[T.Esophagogastric],12.2725,2.7647,54.4772,0.001
+C(cancer_type_ref)[T.Glioma],7.7658,1.6312,36.9717,0.01
+C(cancer_type_ref)[T.Colorectal],53.7884,12.5816,229.9547,0.0
+C(cancer_type_ref)[T.Unknown primary],23.266,5.2245,103.6093,0.0
+C(cancer_type_ref)[T.Breast],3.897,0.5252,28.9174,0.1835
+"C(age_group, Treatment('61-70'))[T.<30]",0.2605,0.0972,0.6978,0.0075
+"C(age_group, Treatment('61-70'))[T.31-50]",0.7175,0.4921,1.0461,0.0844
+"C(age_group, Treatment('61-70'))[T.50-60]",0.9194,0.6706,1.2604,0.6014
+"C(age_group, Treatment('61-70'))[T.>71]",1.0753,0.8004,1.4446,0.6298
+C(sex)[T.Male],1.0976,0.859,1.4026,0.4565
+C(sample_type)[T.Primary],0.7956,0.6139,1.0309,0.0837
+C(panel)[T.IMPACT410],1.2293,0.8628,1.7517,0.2531
+C(panel)[T.IMPACT468],1.4284,0.9611,2.123,0.0778
+matched_normal,0.5748,0.2002,1.6502,0.3034

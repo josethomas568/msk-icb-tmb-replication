@@ -1,0 +1,42 @@
+Analysis dataset: 1661 patients (1660 in per-histology analyses)
+Hard checks failed: 0
+
+[PASS] patient file: one row per patient -- n=1661
+[PASS] sample file: one sample per patient -- n=1661
+[PASS] sample IDs unique
+[PASS] every sample maps to a patient
+[PASS] every patient has a sample
+[PASS] all samples are tumor
+[PASS] all samples from MSKCC
+[PASS] OS months non-missing
+[PASS] OS months >= 0 -- range 0-80
+[PASS] OS months <= 80 (study max follow-up)
+[PASS] OS status coded for all
+[PASS] TMB non-missing
+[PASS] TMB >= 0 -- range 0.00-207.49
+[PASS] TMB plausible (< 300 mut/Mb)
+[PASS] age group levels valid
+[PASS] drug class levels valid
+[PASS] panel levels valid
+[PASS] sex coded
+[PASS] age_years is in years (agrees with age group) -- agreement 92.2%
+[PASS] age_years missingness -- 1 missing
+[PASS] TMB-high fraction 18-26% in every histology -- Bladder Cancer: 20.5%; Breast Cancer: 25.0%; Cancer of Unknown Primary: 20.5%; Colorectal Cancer: 20.0%; Esophagogastric Cancer: 23.0%; Glioma: 21.4%; Head and Neck Cancer: 20.1%; Melanoma: 20.3%; Non-Small Cell Lung Cancer: 21.4%; Renal Cell Carcinoma: 21.2%
+[PASS] histologies excluded from per-histology analysis -- Skin Cancer, Non-Melanoma (n=1)
+[PASS] zero-month OS times present (handled as-is) -- 31 patients
+[PASS] unmatched-normal samples (TMB may be inflated) -- 17 patients
+[PASS] deaths / censored -- 832 deaths, 829 censored
+
+Histology-specific TMB cut-offs (mut/Mb):
+                              n  tmb_80th_pct  tmb_90th_pct
+cancer_type                                                
+Bladder Cancer              215         16.43         23.49
+Breast Cancer                44          5.87          6.79
+Cancer of Unknown Primary    88         13.49         21.27
+Colorectal Cancer           110         51.87         68.51
+Esophagogastric Cancer      126          8.65         13.83
+Glioma                      117          5.87          7.63
+Head and Neck Cancer        139          9.13         11.74
+Melanoma                    320         29.40         45.02
+Non-Small Cell Lung Cancer  350         13.70         19.89
+Renal Cell Carcinoma        151          5.87          7.83

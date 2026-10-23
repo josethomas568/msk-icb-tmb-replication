@@ -1,0 +1,11 @@
+hist,HR,lo,hi,p,n,events,n_high,adj,ph_p,logrank_p,median_os_high,median_os_low
+NSCLC,0.5719,0.3996,0.8184,0.0022,350,219,75,"age_c,panel_ord,ctla4_any",0.5668,0.0029,21,10
+Melanoma,0.5255,0.3142,0.8788,0.0142,320,125,65,"age_c,panel_ord,ctla4_any",0.7736,0.062,47,41
+Bladder,0.5711,0.3272,0.9968,0.0487,215,95,44,"age_c,panel_ord,ctla4_any",0.5246,0.0346,NR,15
+Renal cell,0.8968,0.4538,1.7723,0.754,151,58,32,"age_c,panel_ord,ctla4_any",0.3193,0.53,50,68
+Head & neck,0.3807,0.1812,0.8,0.0108,139,79,28,"age_c,panel_ord,ctla4_any",0.7033,0.0052,25,9
+Esophagogastric,0.7476,0.3765,1.4842,0.4057,126,57,29,"age_c,panel_ord,ctla4_any",0.7722,0.2708,21,13
+Glioma,0.9508,0.5564,1.6247,0.8536,117,87,25,"age_c,panel_ord",0.4038,0.7935,11,13
+Colorectal,0.3843,0.1475,1.001,0.0502,110,45,22,"age_c,panel_ord,ctla4_any",0.0033,0.0278,NR,13
+Unknown primary,0.406,0.1422,1.1594,0.0922,88,36,18,"age_c,panel_ord,ctla4_any",0.5772,0.0934,NR,9
+Breast,1.5253,0.6665,3.4906,0.3175,44,31,11,"age_c,panel_ord,ctla4_any",0.478,0.3509,4,9

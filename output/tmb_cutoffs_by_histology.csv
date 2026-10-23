@@ -1,0 +1,11 @@
+cancer_type,n,tmb_80th_pct,tmb_90th_pct
+Bladder Cancer,215,16.43,23.49
+Breast Cancer,44,5.87,6.79
+Cancer of Unknown Primary,88,13.49,21.27
+Colorectal Cancer,110,51.87,68.51
+Esophagogastric Cancer,126,8.65,13.83
+Glioma,117,5.87,7.63
+Head and Neck Cancer,139,9.13,11.74
+Melanoma,320,29.4,45.02
+Non-Small Cell Lung Cancer,350,13.7,19.89
+Renal Cell Carcinoma,151,5.87,7.83

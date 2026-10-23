@@ -1,0 +1,24 @@
+variable,type,definition,source,notes
+patient_id,string,MSK patient identifier,PATIENT_ID (patient file),
+sample_id,string,MSK-IMPACT tumor sample identifier,SAMPLE_ID,One sample per patient
+cancer_type,category,Histology (OncoTree cancer type),CANCER_TYPE,11 levels; 10 with n>=10
+cancer_type_detailed,category,Detailed histology,CANCER_TYPE_DETAILED,
+oncotree_code,category,OncoTree code,ONCOTREE_CODE,
+sex,category,Sex,SEX,Male / Female
+age_group,ordered category,Age group at diagnosis (years),AGE_GROUP,"<30, 31-50, 50-60, 61-70, >71 (source labels; boundaries overlap at 50 as published)"
+age_years,numeric (years),Age when MSK-IMPACT report issued,AGE_AT_SEQ_REPORT,Metadata says days; values are years (QC-verified against age_group)
+drug_class,category,Checkpoint inhibitor class,DRUG_TYPE,"PD-1/PDL-1 (reference), CTLA4, Combo (anti-CTLA4 + anti-PD-1/PD-L1)"
+os_months,numeric (months),Overall survival from first ICI dose to death or last follow-up,OS_MONTHS,Integer months in public release
+os_event,0/1,Death indicator,OS_STATUS,"1 = 1:DECEASED, 0 = 0:LIVING (censored)"
+tmb,numeric (mut/Mb),Nonsynonymous somatic mutations per Mb of panel sequenced,TMB_NONSYNONYMOUS,
+log2_tmb1,numeric,log2(TMB + 1),derived,Used for continuous / spline models
+panel,ordered category,MSK-IMPACT panel version,GENE_PANEL,IMPACT341 < 410 < 468; used as proxy for treatment era (year not in public data)
+sample_type,category,Primary or metastasis,SAMPLE_TYPE,
+matched_normal,0/1,Matched normal used for somatic calling,SOMATIC_STATUS,
+tumor_purity,numeric (%),Pathologist-estimated tumor purity,TUMOR_PURITY,Some missing
+coverage,numeric,Median sequencing coverage,SAMPLE_COVERAGE,
+in_histology_analysis,0/1,Histology has >=10 patients,derived,"Excludes Skin Cancer, Non-Melanoma (n=1)"
+tmb_cut80,numeric (mut/Mb),80th percentile of TMB within the patient's histology,derived,
+tmb_high20,0/1,PRIMARY exposure: TMB >= histology-specific 80th percentile,derived,Missing if in_histology_analysis = 0
+tmb_high10pct,0/1,Sensitivity: TMB >= histology-specific 90th percentile,derived,
+tmb_ge10,0/1,"Sensitivity: TMB >= 10 mut/Mb (fixed, pan-cancer)",derived,

@@ -1,0 +1,790 @@
+{
+ "n_analysis": 1660,
+ "n_full": 1661,
+ "deaths": 832,
+ "median_followup": 21.0,
+ "median_os_all": "18",
+ "table1": {
+  "NSCLC": {
+   "N": "350",
+   "Age, years, median (IQR)": "67 (59\u201373)",
+   "Age >70 (group >71), n (%)": "122 (35%)",
+   "Female, n (%)": "180 (51%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "329 (94%)",
+   "Anti-CTLA-4 alone, n (%)": "0 (0%)",
+   "Combination, n (%)": "21 (6%)",
+   "Metastatic sample, n (%)": "179 (51%)",
+   "IMPACT341 / 410 / 468, %": "16 / 68 / 16",
+   "TMB, mut/Mb, median (IQR)": "6.9 (3.9\u201312.2)",
+   "TMB-high cut-off (80th pct), mut/Mb": "13.7",
+   "TMB \u226510 mut/Mb, n (%)": "112 (32%)",
+   "Deaths, n (%)": "219 (63%)",
+   "Median OS, months (KM)": "11",
+   "Median follow-up, months (reverse KM)": "23"
+  },
+  "Melanoma": {
+   "N": "320",
+   "Age, years, median (IQR)": "65 (54\u201373)",
+   "Age >70 (group >71), n (%)": "96 (30%)",
+   "Female, n (%)": "120 (38%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "130 (41%)",
+   "Anti-CTLA-4 alone, n (%)": "75 (23%)",
+   "Combination, n (%)": "115 (36%)",
+   "Metastatic sample, n (%)": "266 (83%)",
+   "IMPACT341 / 410 / 468, %": "15 / 71 / 14",
+   "TMB, mut/Mb, median (IQR)": "8.8 (3.4\u201322.5)",
+   "TMB-high cut-off (80th pct), mut/Mb": "29.4",
+   "TMB \u226510 mut/Mb, n (%)": "142 (44%)",
+   "Deaths, n (%)": "125 (39%)",
+   "Median OS, months (KM)": "42",
+   "Median follow-up, months (reverse KM)": "25"
+  },
+  "Bladder": {
+   "N": "215",
+   "Age, years, median (IQR)": "68 (60\u201376)",
+   "Age >70 (group >71), n (%)": "84 (39%)",
+   "Female, n (%)": "51 (24%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "192 (89%)",
+   "Anti-CTLA-4 alone, n (%)": "0 (0%)",
+   "Combination, n (%)": "23 (11%)",
+   "Metastatic sample, n (%)": "92 (43%)",
+   "IMPACT341 / 410 / 468, %": "15 / 41 / 44",
+   "TMB, mut/Mb, median (IQR)": "7.8 (4.3\u201314.1)",
+   "TMB-high cut-off (80th pct), mut/Mb": "16.4",
+   "TMB \u226510 mut/Mb, n (%)": "81 (38%)",
+   "Deaths, n (%)": "95 (44%)",
+   "Median OS, months (KM)": "17",
+   "Median follow-up, months (reverse KM)": "16"
+  },
+  "Renal cell": {
+   "N": "151",
+   "Age, years, median (IQR)": "61 (54\u201366)",
+   "Age >70 (group >71), n (%)": "18 (12%)",
+   "Female, n (%)": "42 (28%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "122 (81%)",
+   "Anti-CTLA-4 alone, n (%)": "0 (0%)",
+   "Combination, n (%)": "29 (19%)",
+   "Metastatic sample, n (%)": "71 (47%)",
+   "IMPACT341 / 410 / 468, %": "8 / 88 / 4",
+   "TMB, mut/Mb, median (IQR)": "3.9 (2.6\u20134.9)",
+   "TMB-high cut-off (80th pct), mut/Mb": "5.9",
+   "TMB \u226510 mut/Mb, n (%)": "2 (1%)",
+   "Deaths, n (%)": "58 (38%)",
+   "Median OS, months (KM)": "50",
+   "Median follow-up, months (reverse KM)": "29"
+  },
+  "Head & neck": {
+   "N": "139",
+   "Age, years, median (IQR)": "62 (53\u201368)",
+   "Age >70 (group >71), n (%)": "22 (16%)",
+   "Female, n (%)": "30 (22%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "131 (94%)",
+   "Anti-CTLA-4 alone, n (%)": "0 (0%)",
+   "Combination, n (%)": "8 (6%)",
+   "Metastatic sample, n (%)": "97 (70%)",
+   "IMPACT341 / 410 / 468, %": "13 / 48 / 39",
+   "TMB, mut/Mb, median (IQR)": "4.9 (2.6\u20138.6)",
+   "TMB-high cut-off (80th pct), mut/Mb": "9.1",
+   "TMB \u226510 mut/Mb, n (%)": "25 (18%)",
+   "Deaths, n (%)": "79 (57%)",
+   "Median OS, months (KM)": "11",
+   "Median follow-up, months (reverse KM)": "15"
+  },
+  "Esophagogastric": {
+   "N": "126",
+   "Age, years, median (IQR)": "60 (50\u201370)",
+   "Age >70 (group >71), n (%)": "25 (20%)",
+   "Female, n (%)": "28 (22%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "93 (74%)",
+   "Anti-CTLA-4 alone, n (%)": "2 (2%)",
+   "Combination, n (%)": "31 (25%)",
+   "Metastatic sample, n (%)": "47 (37%)",
+   "IMPACT341 / 410 / 468, %": "16 / 37 / 48",
+   "TMB, mut/Mb, median (IQR)": "5.4 (3.0\u20137.6)",
+   "TMB-high cut-off (80th pct), mut/Mb": "8.6",
+   "TMB \u226510 mut/Mb, n (%)": "18 (14%)",
+   "Deaths, n (%)": "57 (45%)",
+   "Median OS, months (KM)": "15",
+   "Median follow-up, months (reverse KM)": "9"
+  },
+  "Glioma": {
+   "N": "117",
+   "Age, years, median (IQR)": "54 (45\u201362)",
+   "Age >70 (group >71), n (%)": "8 (7%)",
+   "Female, n (%)": "40 (34%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "114 (97%)",
+   "Anti-CTLA-4 alone, n (%)": "0 (0%)",
+   "Combination, n (%)": "3 (3%)",
+   "Metastatic sample, n (%)": "2 (2%)",
+   "IMPACT341 / 410 / 468, %": "9 / 78 / 14",
+   "TMB, mut/Mb, median (IQR)": "3.3 (2.0\u20135.5)",
+   "TMB-high cut-off (80th pct), mut/Mb": "5.9",
+   "TMB \u226510 mut/Mb, n (%)": "9 (8%)",
+   "Deaths, n (%)": "87 (74%)",
+   "Median OS, months (KM)": "13",
+   "Median follow-up, months (reverse KM)": "23"
+  },
+  "Colorectal": {
+   "N": "110",
+   "Age, years, median (IQR)": "56 (45\u201364)",
+   "Age >70 (group >71), n (%)": "13 (12%)",
+   "Female, n (%)": "48 (44%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "99 (90%)",
+   "Anti-CTLA-4 alone, n (%)": "1 (1%)",
+   "Combination, n (%)": "10 (9%)",
+   "Metastatic sample, n (%)": "60 (55%)",
+   "IMPACT341 / 410 / 468, %": "19 / 55 / 26",
+   "TMB, mut/Mb, median (IQR)": "7.8 (4.9\u201343.2)",
+   "TMB-high cut-off (80th pct), mut/Mb": "51.9",
+   "TMB \u226510 mut/Mb, n (%)": "44 (40%)",
+   "Deaths, n (%)": "45 (41%)",
+   "Median OS, months (KM)": "17",
+   "Median follow-up, months (reverse KM)": "12"
+  },
+  "Unknown primary": {
+   "N": "88",
+   "Age, years, median (IQR)": "62 (53\u201371)",
+   "Age >70 (group >71), n (%)": "22 (25%)",
+   "Female, n (%)": "44 (50%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "76 (86%)",
+   "Anti-CTLA-4 alone, n (%)": "1 (1%)",
+   "Combination, n (%)": "11 (12%)",
+   "Metastatic sample, n (%)": "82 (93%)",
+   "IMPACT341 / 410 / 468, %": "2 / 24 / 74",
+   "TMB, mut/Mb, median (IQR)": "4.9 (2.6\u201310.4)",
+   "TMB-high cut-off (80th pct), mut/Mb": "13.5",
+   "TMB \u226510 mut/Mb, n (%)": "24 (27%)",
+   "Deaths, n (%)": "36 (41%)",
+   "Median OS, months (KM)": "10",
+   "Median follow-up, months (reverse KM)": "8"
+  },
+  "Breast": {
+   "N": "44",
+   "Age, years, median (IQR)": "51 (43\u201359)",
+   "Age >70 (group >71), n (%)": "2 (5%)",
+   "Female, n (%)": "44 (100%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "20 (45%)",
+   "Anti-CTLA-4 alone, n (%)": "20 (45%)",
+   "Combination, n (%)": "4 (9%)",
+   "Metastatic sample, n (%)": "33 (75%)",
+   "IMPACT341 / 410 / 468, %": "25 / 64 / 11",
+   "TMB, mut/Mb, median (IQR)": "3.9 (2.2\u20135.6)",
+   "TMB-high cut-off (80th pct), mut/Mb": "5.9",
+   "TMB \u226510 mut/Mb, n (%)": "2 (5%)",
+   "Deaths, n (%)": "31 (70%)",
+   "Median OS, months (KM)": "6",
+   "Median follow-up, months (reverse KM)": "18"
+  },
+  "All": {
+   "N": "1660",
+   "Age, years, median (IQR)": "63 (53\u201371)",
+   "Age >70 (group >71), n (%)": "412 (25%)",
+   "Female, n (%)": "627 (38%)",
+   "Anti-PD-1/PD-L1 alone, n (%)": "1306 (79%)",
+   "Anti-CTLA-4 alone, n (%)": "99 (6%)",
+   "Combination, n (%)": "255 (15%)",
+   "Metastatic sample, n (%)": "929 (56%)",
+   "IMPACT341 / 410 / 468, %": "14 / 60 / 26",
+   "TMB, mut/Mb, median (IQR)": "5.9 (2.9\u201311.1)",
+   "TMB-high cut-off (80th pct), mut/Mb": "histology-specific",
+   "TMB \u226510 mut/Mb, n (%)": "459 (28%)",
+   "Deaths, n (%)": "832 (50%)",
+   "Median OS, months (KM)": "18",
+   "Median follow-up, months (reverse KM)": "21"
+  }
+ },
+ "categorical": {
+  "top20_chisq": {
+   "chi2": 1.0548969275384121,
+   "df": 9,
+   "p": 0.9993002246331593
+  },
+  "ge10_chisq": {
+   "chi2": 172.33406925898836,
+   "df": 9,
+   "p": 2.0136033191351035e-32,
+   "min_expected": 12.166265060240963,
+   "cells_expected_lt5": 0
+  },
+  "ge10_mc_exact_p": 4.999750012499375e-05,
+  "prevalence": {
+   "Bladder": {
+    "n": 215,
+    "n_high": 81,
+    "pct_ge10": 37.7,
+    "pct_top20": 20.5
+   },
+   "Breast": {
+    "n": 44,
+    "n_high": 2,
+    "pct_ge10": 4.5,
+    "pct_top20": 25.0
+   },
+   "Colorectal": {
+    "n": 110,
+    "n_high": 44,
+    "pct_ge10": 40.0,
+    "pct_top20": 20.0
+   },
+   "Esophagogastric": {
+    "n": 126,
+    "n_high": 18,
+    "pct_ge10": 14.3,
+    "pct_top20": 23.0
+   },
+   "Glioma": {
+    "n": 117,
+    "n_high": 9,
+    "pct_ge10": 7.7,
+    "pct_top20": 21.4
+   },
+   "Head & neck": {
+    "n": 139,
+    "n_high": 25,
+    "pct_ge10": 18.0,
+    "pct_top20": 20.1
+   },
+   "Melanoma": {
+    "n": 320,
+    "n_high": 142,
+    "pct_ge10": 44.4,
+    "pct_top20": 20.3
+   },
+   "NSCLC": {
+    "n": 350,
+    "n_high": 112,
+    "pct_ge10": 32.0,
+    "pct_top20": 21.4
+   },
+   "Renal cell": {
+    "n": 151,
+    "n_high": 2,
+    "pct_ge10": 1.3,
+    "pct_top20": 21.2
+   },
+   "Unknown primary": {
+    "n": 88,
+    "n_high": 24,
+    "pct_ge10": 27.3,
+    "pct_top20": 20.5
+   }
+  },
+  "logistic_lrt_histology": {
+   "chi2": 177.32279995023737,
+   "df": 9,
+   "p": 1.834666873419125e-33
+  },
+  "logistic_n": 1660,
+  "logistic_pseudo_r2": 0.11692172197800987,
+  "logistic_or": {
+   "Intercept": [
+    0.02,
+    0.0,
+    0.13,
+    0.0
+   ],
+   "C(cancer_type_ref)[T.NSCLC]": [
+    33.17,
+    8.04,
+    136.89,
+    0.0
+   ],
+   "C(cancer_type_ref)[T.Melanoma]": [
+    56.05,
+    13.57,
+    231.42,
+    0.0
+   ],
+   "C(cancer_type_ref)[T.Bladder]": [
+    39.96,
+    9.56,
+    166.98,
+    0.0
+   ],
+   "C(cancer_type_ref)[T.Head & neck]": [
+    14.82,
+    3.42,
+    64.33,
+    0.0003
+   ],
+   "C(cancer_type_ref)[T.Esophagogastric]": [
+    12.27,
+    2.76,
+    54.48,
+    0.001
+   ],
+   "C(cancer_type_ref)[T.Glioma]": [
+    7.77,
+    1.63,
+    36.97,
+    0.01
+   ],
+   "C(cancer_type_ref)[T.Colorectal]": [
+    53.79,
+    12.58,
+    229.95,
+    0.0
+   ],
+   "C(cancer_type_ref)[T.Unknown primary]": [
+    23.27,
+    5.22,
+    103.61,
+    0.0
+   ],
+   "C(cancer_type_ref)[T.Breast]": [
+    3.9,
+    0.53,
+    28.92,
+    0.1835
+   ],
+   "C(age_group, Treatment('61-70'))[T.<30]": [
+    0.26,
+    0.1,
+    0.7,
+    0.0075
+   ],
+   "C(age_group, Treatment('61-70'))[T.31-50]": [
+    0.72,
+    0.49,
+    1.05,
+    0.0844
+   ],
+   "C(age_group, Treatment('61-70'))[T.50-60]": [
+    0.92,
+    0.67,
+    1.26,
+    0.6014
+   ],
+   "C(age_group, Treatment('61-70'))[T.>71]": [
+    1.08,
+    0.8,
+    1.44,
+    0.6298
+   ],
+   "C(sex)[T.Male]": [
+    1.1,
+    0.86,
+    1.4,
+    0.4565
+   ],
+   "C(sample_type)[T.Primary]": [
+    0.8,
+    0.61,
+    1.03,
+    0.0837
+   ],
+   "C(panel)[T.IMPACT410]": [
+    1.23,
+    0.86,
+    1.75,
+    0.2531
+   ],
+   "C(panel)[T.IMPACT468]": [
+    1.43,
+    0.96,
+    2.12,
+    0.0778
+   ],
+   "matched_normal": [
+    0.57,
+    0.2,
+    1.65,
+    0.3034
+   ]
+  }
+ },
+ "sensitivity": {
+  "Top 20% within histology (primary)": {
+   "HR": 0.6163195904586789,
+   "lo": 0.5113877283371282,
+   "hi": 0.742782465309259,
+   "p": 3.7232318669008664e-07
+  },
+  "Top 10% within histology": {
+   "HR": 0.5264933162466637,
+   "lo": 0.40124997819942465,
+   "hi": 0.6908292264495554,
+   "p": 3.6833107849160307e-06
+  },
+  "TMB \u226510 mut/Mb (fixed)": {
+   "HR": 0.5652882866480656,
+   "lo": 0.4731453490485502,
+   "hi": 0.6753756486544602,
+   "p": 3.315347116034013e-10
+  },
+  "Continuous, per doubling of (TMB+1)": {
+   "HR": 0.8616090255282765,
+   "lo": 0.8158214491562424,
+   "hi": 0.9099664070362173,
+   "p": 8.974000401543572e-08
+  },
+  "Within-histology percentile, per 10 points": {
+   "HR": 0.9499364316730826,
+   "lo": 0.9280046613781009,
+   "hi": 0.9723865210760283,
+   "p": 1.6357607071193112e-05
+  },
+  "Top 20%, excluding glioma": {
+   "HR": 0.5779909468873259,
+   "lo": 0.4734469929376995,
+   "hi": 0.7056197201946703,
+   "p": 7.236240810830097e-08
+  },
+  "Top 20%, excluding unmatched-normal (n=17)": {
+   "HR": 0.6156509951653498,
+   "lo": 0.5100816293446856,
+   "hi": 0.7430695913025328,
+   "p": 4.3235806029816893e-07
+  },
+  "Top 20%, + sex, sample type, continuous age": {
+   "HR": 0.6158747087934406,
+   "lo": 0.5110120570087352,
+   "hi": 0.7422557877629912,
+   "p": 3.5839562242631945e-07
+  },
+  "TMB \u226510, Melanoma only": {
+   "HR": 0.46785000197681564,
+   "lo": 0.32002037298715,
+   "hi": 0.6839677808840482,
+   "p": 8.84211832742181e-05
+  },
+  "TMB \u226510, NSCLC only": {
+   "HR": 0.6643390751236344,
+   "lo": 0.4916830854821525,
+   "hi": 0.8976237331884916,
+   "p": 0.0077370956845264115
+  },
+  "TMB \u226510, Bladder only": {
+   "HR": 0.8074385678630294,
+   "lo": 0.53074426935339,
+   "hi": 1.228382628920298,
+   "p": 0.3177412548378276
+  }
+ },
+ "spline": {
+  "lrt_overall": 3.10703419011615e-11,
+  "lrt_nonlinear": 1.052311832736527e-05,
+  "aic_spline": 7581.060188216293,
+  "aic_linear": 7599.984060167547,
+  "HR_at_2": [
+   1.0238990376828876,
+   0.927212078569712,
+   1.1306682296299728
+  ],
+  "HR_at_5": [
+   1.019758822730066,
+   1.0062977489121387,
+   1.0333999630427535
+  ],
+  "HR_at_10": [
+   0.879673760718549,
+   0.838612491855308,
+   0.9227455264644792
+  ],
+  "HR_at_20": [
+   0.6133766053022034,
+   0.5225977650457726,
+   0.7199243569269803
+  ],
+  "HR_at_40": [
+   0.3733934333759389,
+   0.2738486377008999,
+   0.5091230588503071
+  ]
+ },
+ "survival": {
+  "logrank_pooled_unstratified": {
+   "chi2": 22.056687016836037,
+   "p": 2.6471587216056217e-06
+  },
+  "logrank_stratified": {
+   "chi2": 26.21967980957197,
+   "p": 3.047014401336796e-07
+  },
+  "unadjusted_stratified_hr": {
+   "HR": 0.6303502050817357,
+   "lo": 0.5235794139411676,
+   "hi": 0.7588942010833791,
+   "p": 1.0955977783492312e-06
+  },
+  "cox_primary": {
+   "HR": 0.6163195904586789,
+   "lo": 0.5113877283371282,
+   "hi": 0.742782465309259,
+   "p": 3.7232318669008664e-07
+  },
+  "cox_primary_terms": {
+   "tmb_high20": {
+    "HR": 0.6163195904586789,
+    "lo": 0.5113877283371282,
+    "hi": 0.742782465309259,
+    "p": 3.7232318669008664e-07
+   },
+   "age_<30": {
+    "HR": 1.2075760428460025,
+    "lo": 0.8063864950330017,
+    "hi": 1.8083634934832724,
+    "p": 0.3599379559276601
+   },
+   "age_31-50": {
+    "HR": 1.120832654985048,
+    "lo": 0.9109077496484297,
+    "hi": 1.3791361869143117,
+    "p": 0.28100115637822765
+   },
+   "age_50-60": {
+    "HR": 0.8785183812325937,
+    "lo": 0.7263082126749018,
+    "hi": 1.0626267646363445,
+    "p": 0.18213239807831538
+   },
+   "age_>71": {
+    "HR": 1.0100427457185521,
+    "lo": 0.8354658771503243,
+    "hi": 1.2210987618769151,
+    "p": 0.9177951665767328
+   },
+   "drug_CTLA4": {
+    "HR": 0.5895120029138249,
+    "lo": 0.410668142429419,
+    "hi": 0.8462414433308472,
+    "p": 0.00416871349661717
+   },
+   "drug_Combo": {
+    "HR": 0.6349392519501504,
+    "lo": 0.502841796542513,
+    "hi": 0.8017389493853107,
+    "p": 0.000135231999631332
+   },
+   "panel_IMPACT410": {
+    "HR": 0.7686257970709414,
+    "lo": 0.6391079589664344,
+    "hi": 0.924390954039062,
+    "p": 0.005189725581597757
+   },
+   "panel_IMPACT468": {
+    "HR": 0.4655113929244044,
+    "lo": 0.365197360329044,
+    "hi": 0.5933801294378772,
+    "p": 6.623086091788232e-10
+   }
+  },
+  "cox_primary_concordance": 0.5975245755138516,
+  "cox_cancer_type_as_covariate": {
+   "HR": 0.6134776101101257,
+   "lo": 0.5096881594431903,
+   "hi": 0.7384020427658762,
+   "p": 2.3798428618081382e-07
+  },
+  "interaction_lrt": {
+   "chi2": 12.593293157684457,
+   "df": 9,
+   "p": 0.1818891415446186
+  },
+  "interaction_lrt_excl_glioma": {
+   "chi2": 8.547989102751671,
+   "df": 8,
+   "p": 0.38184803021218094
+  },
+  "cox_primary_excl_glioma": {
+   "HR": 0.5779909468873259,
+   "lo": 0.4734469929376995,
+   "hi": 0.7056197201946703,
+   "p": 7.236240810830097e-08
+  },
+  "by_histology": {
+   "NSCLC": {
+    "HR": 0.5719,
+    "lo": 0.3996,
+    "hi": 0.8184,
+    "p": 0.0022,
+    "n": 350,
+    "events": 219,
+    "n_high": 75,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.5668,
+    "logrank_p": 0.0029,
+    "median_os_high": "21",
+    "median_os_low": "10"
+   },
+   "Melanoma": {
+    "HR": 0.5255,
+    "lo": 0.3142,
+    "hi": 0.8788,
+    "p": 0.0142,
+    "n": 320,
+    "events": 125,
+    "n_high": 65,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.7736,
+    "logrank_p": 0.062,
+    "median_os_high": "47",
+    "median_os_low": "41"
+   },
+   "Bladder": {
+    "HR": 0.5711,
+    "lo": 0.3272,
+    "hi": 0.9968,
+    "p": 0.0487,
+    "n": 215,
+    "events": 95,
+    "n_high": 44,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.5246,
+    "logrank_p": 0.0346,
+    "median_os_high": "NR",
+    "median_os_low": "15"
+   },
+   "Renal cell": {
+    "HR": 0.8968,
+    "lo": 0.4538,
+    "hi": 1.7723,
+    "p": 0.754,
+    "n": 151,
+    "events": 58,
+    "n_high": 32,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.3193,
+    "logrank_p": 0.53,
+    "median_os_high": "50",
+    "median_os_low": "68"
+   },
+   "Head & neck": {
+    "HR": 0.3807,
+    "lo": 0.1812,
+    "hi": 0.8,
+    "p": 0.0108,
+    "n": 139,
+    "events": 79,
+    "n_high": 28,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.7033,
+    "logrank_p": 0.0052,
+    "median_os_high": "25",
+    "median_os_low": "9"
+   },
+   "Esophagogastric": {
+    "HR": 0.7476,
+    "lo": 0.3765,
+    "hi": 1.4842,
+    "p": 0.4057,
+    "n": 126,
+    "events": 57,
+    "n_high": 29,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.7722,
+    "logrank_p": 0.2708,
+    "median_os_high": "21",
+    "median_os_low": "13"
+   },
+   "Glioma": {
+    "HR": 0.9508,
+    "lo": 0.5564,
+    "hi": 1.6247,
+    "p": 0.8536,
+    "n": 117,
+    "events": 87,
+    "n_high": 25,
+    "adj": "age_c,panel_ord",
+    "ph_p": 0.4038,
+    "logrank_p": 0.7935,
+    "median_os_high": "11",
+    "median_os_low": "13"
+   },
+   "Colorectal": {
+    "HR": 0.3843,
+    "lo": 0.1475,
+    "hi": 1.001,
+    "p": 0.0502,
+    "n": 110,
+    "events": 45,
+    "n_high": 22,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.0033,
+    "logrank_p": 0.0278,
+    "median_os_high": "NR",
+    "median_os_low": "13"
+   },
+   "Unknown primary": {
+    "HR": 0.406,
+    "lo": 0.1422,
+    "hi": 1.1594,
+    "p": 0.0922,
+    "n": 88,
+    "events": 36,
+    "n_high": 18,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.5772,
+    "logrank_p": 0.0934,
+    "median_os_high": "NR",
+    "median_os_low": "9"
+   },
+   "Breast": {
+    "HR": 1.5253,
+    "lo": 0.6665,
+    "hi": 3.4906,
+    "p": 0.3175,
+    "n": 44,
+    "events": 31,
+    "n_high": 11,
+    "adj": "age_c,panel_ord,ctla4_any",
+    "ph_p": 0.478,
+    "logrank_p": 0.3509,
+    "median_os_high": "4",
+    "median_os_low": "9"
+   }
+  },
+  "ph_tests": {
+   "age_31-50": {
+    "rank_p": 0.200505445950117,
+    "km_p": 0.6386393947959491
+   },
+   "age_50-60": {
+    "rank_p": 0.21330581823721498,
+    "km_p": 0.758056063149257
+   },
+   "age_<30": {
+    "rank_p": 0.5965847915855061,
+    "km_p": 0.02430000973818681
+   },
+   "age_>71": {
+    "rank_p": 0.8250136785714801,
+    "km_p": 0.7500111138307417
+   },
+   "drug_CTLA4": {
+    "rank_p": 0.2635559748024948,
+    "km_p": 0.9927612293306054
+   },
+   "drug_Combo": {
+    "rank_p": 0.19042512159602215,
+    "km_p": 0.9138423975781689
+   },
+   "panel_IMPACT410": {
+    "rank_p": 0.7578606723321637,
+    "km_p": 0.8329713046864334
+   },
+   "panel_IMPACT468": {
+    "rank_p": 0.2710925993851885,
+    "km_p": 0.49180423034804244
+   },
+   "tmb_high20": {
+    "rank_p": 0.8830179897950867,
+    "km_p": 0.4712752353042212
+   }
+  },
+  "time_split": {
+   "tmb_early": {
+    "HR": 0.6145744219992747,
+    "lo": 0.49195545683925407,
+    "hi": 0.7677559318122498,
+    "p": 1.8065231616095454e-05
+   },
+   "tmb_late": {
+    "HR": 0.5998057755570414,
+    "lo": 0.418823813694175,
+    "hi": 0.8589935830494244,
+    "p": 0.005280313421787673
+   }
+  }
+ }
+}
